@@ -1,4 +1,9 @@
 ﻿
+# Author: Rizwan
+# Created: 10/1/2018
+# Execution command example
+# C:\powershell.exe -ExecutionPolicy ByPasspowershell.exe -ExecutionPolicy ByPass .\get_installed_programs.ps1
+
 begin {
         $RegistryLocation = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\',
                             'SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\'
